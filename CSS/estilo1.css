@@ -1,0 +1,50 @@
+.nav-link.active{
+    color: white !important;
+}
+
+.marco{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.centered {
+    color: rgb(0, 131, 198);
+    font-size: 90px;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    
+}
+
+.tamImagen{
+    width: 2000px;
+}
+
+.containerS {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.estiloparr{
+    color:rgb(0, 131, 198);
+    font-size: larger;
+    
+}
+
+.estiloparr2{
+    text-decoration: underline;
+    color:rgb(0, 131, 198);
+    font-size:x-large;
+    
+}
+
+.centerimg {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
