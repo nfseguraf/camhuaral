@@ -9,12 +9,26 @@
 }
 
 .centered {
-    color: rgb(0, 131, 198);
-    font-size: 90px;
+    color: rgb(95, 202, 255);
+    font-size: 80px;
     position: absolute;
     bottom: 8px;
     left: 16px;
+    background-color: rgba(0, 0, 0, 0.403) ;
     
+}
+
+@media screen and (max-width: 900px){
+    .centered{
+        color: rgb(103, 204, 255);
+        font-size: 45px;
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+        background-color: rgba(0, 0, 0, 0.403) ;
+
+    }
+
 }
 
 .tamImagen{
@@ -40,6 +54,13 @@
     
 }
 
+.estilosub{
+    padding-top: 90px;
+    font-weight: bolder;
+    font-size: 40px;
+    
+}
+
 .centerimg {
     width: 200px;
     height: 200px;
@@ -48,3 +69,17 @@
     margin-right: auto;
     
   }
+
+  .centerimg2 {
+    max-width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .subtitulo{
+    padding-top: 90px;
+    font-weight: bolder;
+    font-size: 40px;
+}
